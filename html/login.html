@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BeardX</title>
+    <style>
+        
+    body {
+        background-image: url(https://images.pexels.com/photos/1319460/pexels-photo-1319460.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+        background-size: 100%;
+    }
+        div{
+            border: 1px solid black;
+            border-radius: 5%;
+            width: 300px;
+            height: 135px;
+            text-align: center;
+            margin-top: 25px;
+            margin-left: 425px;
+            padding-top: 25px;
+            padding-bottom: 400px;
+            background-color: white;
+        }
+        img {
+            width: 100px;
+            border-radius: 100%;
+        }
+        div #correo{
+            padding-top: 50px;
+        }
+        div #correo #email {
+            position: relative;
+            left: -60px;
+        }
+        div #correo input {
+            position: relative;
+            left: -30px;
+            border-radius: 3px;
+        }
+        div #contraseña {
+            margin-top: 50px;
+        }
+        div #contraseña  span {
+            position: relative;
+            left: -80px;
+        }
+        div #contraseña input {
+            position: relative;
+            left: -30px;
+            border-radius: 3px;
+        }
+        a {
+            text-decoration: none;
+            color: grey;
+            position: relative;
+            top: 20px;
+            left: -40px;
+        }
+        a:hover {
+            color: black;
+        }
+        button {
+            position: relative;
+            top: 40px;
+            background-color: black;
+            color: white;
+            width: 100px;
+            border-radius: 5px;
+        }
+        button:hover {
+            color:black;
+            background-color: white;
+        }
+    </style>
+</head>
+<body >
+    <div>
+        <img src="https://img.freepik.com/iconos-gratis/x-circulo_318-2105.jpg?size=338&ext=jpg" alt=""> <br>
+        <form  id="correo" action="nombre">
+            <span id="email">¿Cuál es tu Email?</span> <br><br>
+            <input type="text" placeholder="Correo">
+        </form> 
+        <form id="contraseña" action="nombre">
+            <span>Contraseña</span> <br><br>
+            <input type="password" placeholder="Contraseña">
+        </form>
+        <p><a href="#">¿Olvidaste tu contraseña?</a></p>
+        <button>Ingresar</button>
+    </div>
+</body>
+</html>
