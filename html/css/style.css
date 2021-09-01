@@ -57,36 +57,10 @@ body{
     }
     body {
     background:white;
-     }
+    }
+    .conten{
+        margin-top: 30px;
+    }
+  
 
-     .im1{
-         width: 100%;
-         display: flex;
-         justify-content: center;
-         align-items: center;
-         height: 100vh;
-     }
-
-    .img1 figure{
-        position: relative;
-        margin-top: -40px;
-        margin-left: -55px;
-        height: 400px;
-        width: 550px;
-        overflow: hidden;
-        border-radius: 6px;
-        cursor: pointer;
-    }
-    .img1 figure img{
-        width: 100%;
-        height: 100%;
-        transition: all 500ms ease-out;
-    }
-    
-    .img1 figure .capa{
-    position: absolute;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    }
 
