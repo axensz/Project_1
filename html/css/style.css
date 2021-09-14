@@ -118,4 +118,19 @@ margin: 40px;
         justify-content: center;
         text-align: center;
     }
+img{
+  text-align: center;
+  width: 70%;
+  height: 30%;
+  margin-left: 15%;
+  margin-bottom: 3%;
+}
+video{
+  text-align: center;
+  margin-left: 15%;
+  margin-top: 3%;
+}
 
+    .parrafo2 h1{
+      text-align: center;
+    }
