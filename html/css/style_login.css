@@ -4,7 +4,7 @@ body{
     margin: 0;
     padding: 0%;
     font-family: montserrat;
-    background-image: url(fondo.jpg);
+    background-image: url(../img/fondologin3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -122,4 +122,8 @@ input[type="checkbox"]{
 .register a.terminos{
     color: #666666;
     text-decoration: none;  
+}
+.olvidaste{
+    text-align: center;
+    font-size: 20px;
 }
