@@ -165,7 +165,9 @@ nav{
     #contenedor-servicios {
       text-align: center;
       position: relative;
-      top: 60px;
+      top: 100px;
+      margin: 30px;
+      margin-bottom: 50px;
     }
     #contenedor-servicios #serv1 {
       font-size: 12px;
@@ -218,3 +220,21 @@ nav{
       background: black;
     }
 
+
+    /*                                           Parte de "contratarnos"               */
+
+    .cont #contra {
+      display: inline-block;
+      width: 500px;
+      position: relative;
+      top: 30px;
+    }
+
+      /*                                    video                                      */
+
+      video {
+        width: 600px;
+        position: relative;
+        top: 60px;
+        left: 100px;
+      }
