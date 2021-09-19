@@ -217,7 +217,7 @@ nav{
       margin-top: 15%;
       background: #111;
       height: auto;
-      width: 100vw;
+      width: 100%;
       padding-top: 40px;
       color: #fff;
     }
@@ -230,7 +230,7 @@ nav{
     }
     .footer-content h3{
       font-size: 40px;
-      font-weight: 650;
+      font-weight: 0;
       text-transform: capitalize;
       line-height: 3rem;
     }
@@ -259,11 +259,11 @@ nav{
       transition: color .4s ease;
     }
     .social :hover i{
-      color: aqua;
+      color: red;
     }
     .footer-bottom{
       background: #000;
-      width: 100vw;
+      width: 100%;
       padding: 20px 0;
       text-align: center;
     }
