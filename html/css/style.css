@@ -217,7 +217,7 @@ nav{
       margin-top: 15%;
       background: #111;
       height: auto;
-      width: 100vw;
+      width: auto;
       padding-top: 40px;
       color: #fff;
     }
@@ -263,7 +263,7 @@ nav{
     }
     .footer-bottom{
       background: #000;
-      width: 100vw;
+      width: auto;
       padding: 20px 0;
       text-align: center;
     }
