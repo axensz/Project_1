@@ -52,3 +52,13 @@ body{
         pointer-events: none;
         transition: .5s;
     }
+    .txt_field span::before{
+        content: "";
+        position: absolute;
+        top: 40px;
+        left: 0;
+        width: 0%;
+        height: 2px;
+        background: red;
+        transition: .5s;
+    }
