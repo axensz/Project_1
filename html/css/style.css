@@ -175,7 +175,7 @@ nav{
       display: inline-block;
       position: relative;
       top: 40px;
-      right: 300px;
+      right: 450px;
       transition: 1s;
     }
     #contenedor-servicios #serv1 img{
@@ -195,7 +195,7 @@ nav{
       display: inline-block;
       position: absolute;
       top: 90px;
-      right: 200px;
+      right: 425px;
       transition: 1s; 
 
     }
@@ -204,6 +204,23 @@ nav{
       border-radius: 150px;
     }
     #contenedor-servicios #serv2 p {
+      display: block;
+      width: 350px;
+      font-size: 17px;
+    }
+    #contenedor-servicios #serv3 {
+      font-size: 12px;
+      text-align: center;
+      display: inline-block;
+      position: absolute;
+      top: 90px;
+      right: 15px;
+    }
+    #contenedor-servicios #serv3 img {
+      width: 150px;
+      border-radius: 150px;
+    }
+    #contenedor-servicios #serv3 p {
       display: block;
       width: 350px;
       font-size: 17px;
