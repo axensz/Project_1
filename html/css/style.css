@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
-/* Parte principal*/
+/*                                           Parte principal                                              */
 *{
   margin: 0;
   padding: 0;
@@ -12,7 +12,7 @@
   margin-left: 40px;
 }
 
-/* Barra de  navegacion superior*/
+/*                                       Barra de  navegacion superior                                    */
 
 html {
   scroll-behavior: smooth;
@@ -111,7 +111,7 @@ nav{
     }
 }
 
-/* Imagen y texto de la parte principal*/
+/*                                  Imagen y texto de la parte principal                                  */
 
     .hero-text{
       color: white;
@@ -149,29 +149,18 @@ nav{
       margin-bottom: -50px;
     }
 
-
-
-    img{
-      text-align: center;
-      width: 70%;
-      height: 30%;
-      margin-left: 15%;
-      margin-bottom: 3%;
+    .parrafo2{
+      margin-left: 63px;
     }
-    video{
-      text-align: center;
-      margin-left: 15%;
-      margin-top: 3%;
-    }
-
-
-
     .parrafo2 h1{
-      text-align: center;
-      margin: 20px;
+      text-align: left;
+    }
+    .parrafo2 p{
+      text-align: justify;
+     
     }
 
-/* Parte Servicios*/
+/*                                               Parte Servicios                                        */
 
     #contenedor-servicios {
       text-align: center;
@@ -217,6 +206,11 @@ nav{
       width: 350px;
       font-size: 17px;
     }
+
+
+
+
+    /*                                              Parte Inferior                                     */
     footer div {
       margin-top: 30px;
       position: relative;
