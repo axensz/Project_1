@@ -1,5 +1,108 @@
-       #encabezado {
-           position: relative;
-           text-align: center;
-           margin-top: 20px;
-       }
+/*                                                 Parte General                              */
+html {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 62.5%;
+
+  }
+  
+  *, *:before, *:after {
+    -webkit-box-sizing: inherit;
+            box-sizing: inherit;
+  }
+    body{
+        background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../img/pokemon-1624022_1920.jpg);
+
+    }
+
+/*                                           Texto de encabezado                                  */
+   #encabezado {
+            position: relative;
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            color: white;
+        }
+/*                                           Cartas Pokemon                                         */
+  .all {
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-top: 5px;
+    
+  }
+  .card {
+    margin: 20px;
+    background-color: white;
+    width: 280px;
+    border-radius: 16px;
+    overflow: hidden;
+    -webkit-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+            box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  }
+  
+  .card-body {
+    margin-top: 10%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border-bottom: 1px solid rgba(153, 153, 153, 0.383);
+  }
+  
+  .card-body-img {
+    width: 80%;
+    border: 5px solid red;
+    border-radius: 50%;
+    margin-top: -20px;
+    background-color: white;
+  }
+  
+  .card-body-title {
+    margin-top: 10px;
+    font-size: 20px;
+  }
+  .card-body-text {
+    color: var(--dark-gray);
+    font-size: 1.6rem;
+    margin-top: 0;
+    margin-bottom: 2px
+  }
+  
+  .card_a {
+    margin-top: 8px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+    .pokemon{
+        border: 1px solid white;
+        background: white ;
+        display: flex;
+        justify-content: space-around; 
+        margin-left:20%;
+        margin-right: 20%;
+        margin-bottom: 10px;
+    }
+/*                                        Texto del medio y boton                                   */
+    .vs h1{
+        font-weight: 700;
+        font-size: 50px;
+        text-align: center;
+        margin-top: 220%;
+        color: black;
+    }
+    .vs input{
+        margin-left: 5%;
+        width: 100%;
+        height: 8%;
+    }
