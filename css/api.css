@@ -20,7 +20,6 @@ html {
             position: relative;
             text-align: center;
             margin-top: 20px;
-            margin-bottom: 20px;
             color: white;
         }
 /*                                           Cartas Pokemon                                         */
@@ -29,7 +28,7 @@ html {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    margin-top: 5px;
+    margin-top: 0;
     
   }
   .card {
@@ -107,3 +106,6 @@ html {
         color: white;
         background-color: black;
     }
+h3{
+  text-align: center;
+}
