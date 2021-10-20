@@ -10,8 +10,8 @@ window.onload = function or(){
 }
 
 function duelo(){
-    let aleatorio = Math.round(Math.random()*(100-1)+parseInt(1));;
-    let aleatorio2 = Math.round(Math.random()*(100-2)+parseInt(1));;
+    let aleatorio = Math.round(Math.random()*(200-1)+parseInt(1));;
+    let aleatorio2 = Math.round(Math.random()*(200-2)+parseInt(1));;
     pokemon1 = document.getElementById("poke_01");
     pokemon2 = document.getElementById("poke_02");
     nombre1 = document.getElementById("nombre_1");
